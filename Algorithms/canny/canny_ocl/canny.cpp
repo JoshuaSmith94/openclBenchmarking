@@ -2,36 +2,38 @@
 #include <iostream>
 #include <chrono>
 #include <opencv2/opencv.hpp>
+#include <opencv2/core/ocl.hpp>
 
 using namespace cv;
+using namespace std;
 
 int edgeThresh = 1;
-int lowThreshold;
+double lowThreshold;
 int const max_lowThreshold = 100;
-int ratio = 3;
+int ratioo = 3;
 int kernel_size = 3;
-Mat detected_edges;
+UMat detected_edges;
 
 
 int main(int argc, char** argv )
 {
-    if ( argc != 2 )
-    {
-        printf("usage: DisplayImage.out <Image_Path>\n");
-        return -1;
-    }
+    if(cv::ocl::haveOpenCL())
+        {
+            cv::ocl::setUseOpenCL(true);
+        }
 
-    Mat image;
-    image = imread( argv[1], 1 );
+    UMat image;
+    imread( argv[1], 1 ).copyTo( image );
 
-    if ( !image.data )
+    if ( image.empty() )
     {
         printf("No image data \n");
         return -1;
     }
     auto t1 = std::chrono::high_resolution_clock::now();
     
-    Canny( image, detected_edges, lowThreshold, lowThreshold*ratio, kernel_size );
+    Canny( image, detected_edges, lowThreshold, lowThreshold*ratioo, kernel_size );
+    
 
     auto t2 = std::chrono::high_resolution_clock::now();
     std::cout << "f() took "

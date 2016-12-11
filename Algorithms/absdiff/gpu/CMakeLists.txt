@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( absdiff )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package( OpenCV REQUIRED )
+add_executable( absdiff absdiff.cpp )
+target_link_libraries( absdiff ${OpenCV_LIBS} )

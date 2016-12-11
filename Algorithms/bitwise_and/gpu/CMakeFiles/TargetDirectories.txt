@@ -1,0 +1,3 @@
+/home/joshua/Projects/openclBenchmarking/Algorithms/bitwise_and/gpu/CMakeFiles/edit_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/bitwise_and/gpu/CMakeFiles/rebuild_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/bitwise_and/gpu/CMakeFiles/ocvProgram.dir

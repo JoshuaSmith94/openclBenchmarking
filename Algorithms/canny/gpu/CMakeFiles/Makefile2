@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu
 CMAKE_BINARY_DIR = /home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu
 
 #=============================================================================
-# Target rules for target CMakeFiles/ocvProgram.dir
+# Target rules for target CMakeFiles/canny.dir
 
 # All Build rule for target.
-CMakeFiles/ocvProgram.dir/all:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/depend
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles --progress-num=1,2 "Built target ocvProgram"
-.PHONY : CMakeFiles/ocvProgram.dir/all
+CMakeFiles/canny.dir/all:
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/depend
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles --progress-num=1,2 "Built target canny"
+.PHONY : CMakeFiles/canny.dir/all
 
 # Include target in all.
-all: CMakeFiles/ocvProgram.dir/all
+all: CMakeFiles/canny.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ocvProgram.dir/rule: cmake_check_build_system
+CMakeFiles/canny.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ocvProgram.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/canny.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles 0
-.PHONY : CMakeFiles/ocvProgram.dir/rule
+.PHONY : CMakeFiles/canny.dir/rule
 
 # Convenience name for target.
-ocvProgram: CMakeFiles/ocvProgram.dir/rule
+canny: CMakeFiles/canny.dir/rule
 
-.PHONY : ocvProgram
-
-# clean rule for target.
-CMakeFiles/ocvProgram.dir/clean:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/clean
-.PHONY : CMakeFiles/ocvProgram.dir/clean
+.PHONY : canny
 
 # clean rule for target.
-clean: CMakeFiles/ocvProgram.dir/clean
+CMakeFiles/canny.dir/clean:
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/clean
+.PHONY : CMakeFiles/canny.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/canny.dir/clean
 
 .PHONY : clean
 

@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ocvProgram
+# Target rules for targets named bitwise_and
 
 # Build rule for target.
-ocvProgram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ocvProgram
-.PHONY : ocvProgram
+bitwise_and: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 bitwise_and
+.PHONY : bitwise_and
 
 # fast build rule for target.
-ocvProgram/fast:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/build
-.PHONY : ocvProgram/fast
+bitwise_and/fast:
+	$(MAKE) -f CMakeFiles/bitwise_and.dir/build.make CMakeFiles/bitwise_and.dir/build
+.PHONY : bitwise_and/fast
 
 bitwise_and.o: bitwise_and.cpp.o
 
@@ -129,7 +129,7 @@ bitwise_and.o: bitwise_and.cpp.o
 
 # target to build an object file
 bitwise_and.cpp.o:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/bitwise_and.cpp.o
+	$(MAKE) -f CMakeFiles/bitwise_and.dir/build.make CMakeFiles/bitwise_and.dir/bitwise_and.cpp.o
 .PHONY : bitwise_and.cpp.o
 
 bitwise_and.i: bitwise_and.cpp.i
@@ -138,7 +138,7 @@ bitwise_and.i: bitwise_and.cpp.i
 
 # target to preprocess a source file
 bitwise_and.cpp.i:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/bitwise_and.cpp.i
+	$(MAKE) -f CMakeFiles/bitwise_and.dir/build.make CMakeFiles/bitwise_and.dir/bitwise_and.cpp.i
 .PHONY : bitwise_and.cpp.i
 
 bitwise_and.s: bitwise_and.cpp.s
@@ -147,7 +147,7 @@ bitwise_and.s: bitwise_and.cpp.s
 
 # target to generate assembly for a file
 bitwise_and.cpp.s:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/bitwise_and.cpp.s
+	$(MAKE) -f CMakeFiles/bitwise_and.dir/build.make CMakeFiles/bitwise_and.dir/bitwise_and.cpp.s
 .PHONY : bitwise_and.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ocvProgram"
+	@echo "... bitwise_and"
 	@echo "... bitwise_and.o"
 	@echo "... bitwise_and.i"
 	@echo "... bitwise_and.s"

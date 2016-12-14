@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ocvProgram
+# Target rules for targets named canny
 
 # Build rule for target.
-ocvProgram: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ocvProgram
-.PHONY : ocvProgram
+canny: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 canny
+.PHONY : canny
 
 # fast build rule for target.
-ocvProgram/fast:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/build
-.PHONY : ocvProgram/fast
+canny/fast:
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/build
+.PHONY : canny/fast
 
 canny.o: canny.cpp.o
 
@@ -129,7 +129,7 @@ canny.o: canny.cpp.o
 
 # target to build an object file
 canny.cpp.o:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/canny.cpp.o
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/canny.cpp.o
 .PHONY : canny.cpp.o
 
 canny.i: canny.cpp.i
@@ -138,7 +138,7 @@ canny.i: canny.cpp.i
 
 # target to preprocess a source file
 canny.cpp.i:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/canny.cpp.i
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/canny.cpp.i
 .PHONY : canny.cpp.i
 
 canny.s: canny.cpp.s
@@ -147,7 +147,7 @@ canny.s: canny.cpp.s
 
 # target to generate assembly for a file
 canny.cpp.s:
-	$(MAKE) -f CMakeFiles/ocvProgram.dir/build.make CMakeFiles/ocvProgram.dir/canny.cpp.s
+	$(MAKE) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/canny.cpp.s
 .PHONY : canny.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ocvProgram"
+	@echo "... canny"
 	@echo "... canny.o"
 	@echo "... canny.i"
 	@echo "... canny.s"

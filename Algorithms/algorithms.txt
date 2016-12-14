@@ -1,4 +1,4 @@
-canny
 absdiff
 add
 bitwise_and
+Canny

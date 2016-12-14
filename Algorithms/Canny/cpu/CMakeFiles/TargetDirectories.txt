@@ -1,0 +1,3 @@
+/home/joshua/Projects/openclBenchmarking/Algorithms/Canny/cpu/CMakeFiles/edit_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/Canny/cpu/CMakeFiles/rebuild_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/Canny/cpu/CMakeFiles/Canny.dir

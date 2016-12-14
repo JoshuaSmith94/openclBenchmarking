@@ -1,3 +1,0 @@
-/home/joshua/Projects/openclBenchmarking/Algorithms/add/cpu/CMakeFiles/edit_cache.dir
-/home/joshua/Projects/openclBenchmarking/Algorithms/add/cpu/CMakeFiles/rebuild_cache.dir
-/home/joshua/Projects/openclBenchmarking/Algorithms/add/cpu/CMakeFiles/ocvProgram.dir

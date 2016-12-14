@@ -4,12 +4,13 @@
 		
 	Created by Joshua Smith
 		
-		2016-12-10		
+		2016-12-14		
 
 ***********************************/
 
 #include <stdio.h>
 #include <iostream>
+#include <fstream>
 #include <chrono>
 #include <opencv2/opencv.hpp>
 
@@ -22,6 +23,11 @@ int main(int argc, char** argv )
         return -1;
     }
 
+	std::ofstream logfile;
+  	logfile.open ("log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
+	logfile << "absdiff test\n";  	
+	logfile << "OpenCV version: "<< CV_VERSION << "\n";
+	
     cv::Mat input;
 	cv::Mat output;
     input = cv::imread( argv[1], 1 );
@@ -31,20 +37,21 @@ int main(int argc, char** argv )
         printf("No image data \n");
         return -1;
     }
+
     auto t1 = std::chrono::high_resolution_clock::now();
     
-    add( input, input, output);
+    add(input, input, output);
 
     auto t2 = std::chrono::high_resolution_clock::now();
-     std::cout << "Image of size " 
+
+	logfile << "Image of size: " 
 			  << input.cols
 			  << " by "
 			  << input.rows
-			  << " took "
-              << std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count()
-              << " milliseconds on CPU\n";
-
-    
-
+			  << "\n";
+	logfile << "Time to run: "
+			<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() 
+			<< "\n\n";
+	logfile.close();
     return 0;
 }

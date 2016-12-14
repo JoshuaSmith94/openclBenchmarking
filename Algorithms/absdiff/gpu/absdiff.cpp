@@ -4,7 +4,7 @@
 		
 	Created by Joshua Smith
 		
-		2016-12-10		
+		2016-12-14		
 
 ***********************************/
 
@@ -22,6 +22,7 @@ int main(int argc, char** argv )
         printf("ERROR: No image provided\n");
         return -1;
     }
+
 	std::ofstream logfile;
   	logfile.open ("log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
 	logfile << "absdiff test\n";  	
@@ -32,32 +33,19 @@ int main(int argc, char** argv )
             cv::ocl::setUseOpenCL(true);
         }
 
-
-
-
 	cv::ocl::Context context;
     context.create(cv::ocl::Device::TYPE_GPU);
-   
-
 	for (int i = 0; i < context.ndevices(); i++)
 	{
 		cv::ocl::Device device = context.device(i);
 		logfile << "name:              " << device.name() << "\n";
 		logfile << "OpenCL_C_Version:  " << device.OpenCL_C_Version() << "\n";
-
 	}
 
 	cv::ocl::Device(context.device(0)); //Set to use device 0
 
-	
-
-
-
-
-
     cv::UMat input;
 	cv::UMat output;
-
     cv::imread( argv[1], 1 ).copyTo( input );
 
     if ( input.empty() )
@@ -65,25 +53,18 @@ int main(int argc, char** argv )
         printf("No image data \n");
         return -1;
     }
+
     auto t1 = std::chrono::high_resolution_clock::now();
     
-    absdiff( input, input, output);
+    absdiff(input, input, output);
 
     auto t2 = std::chrono::high_resolution_clock::now();
-    std::cout << "Image of size " 
-			  << input.cols
-			  << " by "
-			  << input.rows
-			  << " took "
-              << std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count()
-              << " milliseconds on GPU\n";
 
 	logfile << "Image of size: " 
 			  << input.cols
 			  << " by "
 			  << input.rows
 			  << "\n";
-
 	logfile << "Time to run: "
 			<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() 
 			<< "\n\n";

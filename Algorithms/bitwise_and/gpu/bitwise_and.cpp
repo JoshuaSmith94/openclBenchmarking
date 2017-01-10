@@ -25,7 +25,7 @@ int main(int argc, char** argv )
 
 	std::ofstream logfile;
   	logfile.open ("log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
-	logfile << "absdiff test\n";  	
+	logfile << "bitwise_and test\n";  	
 	logfile << "OpenCV version: "<< CV_VERSION << "\n";
 	
     if(cv::ocl::haveOpenCL())

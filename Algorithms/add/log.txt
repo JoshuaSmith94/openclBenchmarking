@@ -1,189 +1,45 @@
-absdiff test
+add test
 OpenCV version: 3.1.0
 Image of size: 3840 by 2160
-Time to run: 65
+Time to run: 60
 
-absdiff test
+add test
 OpenCV version: 3.1.0
 Image of size: 1920 by 1080
-Time to run: 56
+Time to run: 57
 
-absdiff test
+add test
 OpenCV version: 3.1.0
 Image of size: 1280 by 720
 Time to run: 56
 
-absdiff test
+add test
 OpenCV version: 3.1.0
 Image of size: 640 by 480
 Time to run: 56
 
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 3840 by 2160
-Time to run: 119
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 1920 by 1080
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 1280 by 720
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 640 by 480
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 3840 by 2160
-Time to run: 59
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 1920 by 1080
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 1280 by 720
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 640 by 480
-Time to run: 55
-
-absdiff test
+add test
 OpenCV version: 3.1.0
 name:              GeForce GTX 980
 OpenCL_C_Version:  OpenCL C 1.2 
 Image of size: 3840 by 2160
 Time to run: 1
 
-absdiff test
+add test
 OpenCV version: 3.1.0
 name:              GeForce GTX 980
 OpenCL_C_Version:  OpenCL C 1.2 
 Image of size: 1920 by 1080
 Time to run: 1
 
-absdiff test
+add test
 OpenCV version: 3.1.0
 name:              GeForce GTX 980
 OpenCL_C_Version:  OpenCL C 1.2 
 Image of size: 1280 by 720
 Time to run: 1
 
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 640 by 480
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 3840 by 2160
-Time to run: 59
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 1920 by 1080
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 1280 by 720
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 640 by 480
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 3840 by 2160
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 1920 by 1080
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 1280 by 720
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 640 by 480
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 3840 by 2160
-Time to run: 59
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 1920 by 1080
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 1280 by 720
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-Image of size: 640 by 480
-Time to run: 56
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 3840 by 2160
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 1920 by 1080
-Time to run: 1
-
-absdiff test
-OpenCV version: 3.1.0
-name:              GeForce GTX 980
-OpenCL_C_Version:  OpenCL C 1.2 
-Image of size: 1280 by 720
-Time to run: 1
-
-absdiff test
+add test
 OpenCV version: 3.1.0
 name:              GeForce GTX 980
 OpenCL_C_Version:  OpenCL C 1.2 

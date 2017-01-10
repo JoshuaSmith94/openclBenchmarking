@@ -1,3 +1,0 @@
-/home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles/edit_cache.dir
-/home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles/rebuild_cache.dir
-/home/joshua/Projects/openclBenchmarking/Algorithms/canny/gpu/CMakeFiles/canny.dir

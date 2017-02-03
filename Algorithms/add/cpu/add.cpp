@@ -25,14 +25,15 @@ int main(int argc, char** argv )
 
 	std::ofstream logfile;
   	logfile.open ("log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
-	logfile << "add test\n";  	
-	logfile << "OpenCV version: "<< CV_VERSION << "\n";
+	logfile << "algorithm:add,"; 
+	logfile << "type:cpu,";   	
+	logfile << "OCVVersion:" << CV_VERSION << ",";
 	
     cv::Mat input;
 	cv::Mat output;
     input = cv::imread( argv[1], 1 );
 
-    if ( !input.data )
+    if ( !input.data ) 
     {
         printf("No image data \n");
         return -1;
@@ -44,14 +45,10 @@ int main(int argc, char** argv )
 
     auto t2 = std::chrono::high_resolution_clock::now();
 
-	logfile << "Image of size: " 
-			  << input.cols
-			  << " by "
-			  << input.rows
-			  << "\n";
-	logfile << "Time to run: "
-			<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() 
-			<< "\n\n";
+	logfile << "width:" << input.cols << ","
+            << "height:" << input.rows << ","
+            << "dataType:" << input.type() << ","
+            << "time:"	<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() << "\n";
 	logfile.close();
     return 0;
 }

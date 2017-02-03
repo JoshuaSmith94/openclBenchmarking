@@ -25,8 +25,9 @@ int main(int argc, char** argv )
 
 	std::ofstream logfile;
   	logfile.open ("log.txt", std::fstream::in | std::fstream::out | std::fstream::app);
-	logfile << "absdiff test\n";  	
-	logfile << "OpenCV version: "<< CV_VERSION << "\n";
+	logfile << "algorithm:absdiff,";
+	logfile << "type:gpu,";  	
+	logfile << "OCV_Ver:" << CV_VERSION << ",";
 	
     if(cv::ocl::haveOpenCL())
         {
@@ -38,8 +39,8 @@ int main(int argc, char** argv )
 	for (int i = 0; i < context.ndevices(); i++)
 	{
 		cv::ocl::Device device = context.device(i);
-		logfile << "name:              " << device.name() << "\n";
-		logfile << "OpenCL_C_Version:  " << device.OpenCL_C_Version() << "\n";
+		logfile << "device:" << device.name() << ",";
+		logfile << "OCL_Ver:" << device.OpenCL_C_Version() << ",";
 	}
 
 	cv::ocl::Device(context.device(0)); //Set to use device 0
@@ -60,14 +61,10 @@ int main(int argc, char** argv )
 
     auto t2 = std::chrono::high_resolution_clock::now();
 
-	logfile << "Image of size: " 
-			  << input.cols
-			  << " by "
-			  << input.rows
-			  << "\n";
-	logfile << "Time to run: "
-			<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() 
-			<< "\n\n";
-	logfile.close(); 
+	logfile << "width:" << input.cols << ","
+            << "height:" << input.rows << ","
+            << "dataType:" << input.type() << ","
+            << "time:"	<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() << "\n";
+	logfile.close();
     return 0;
 }

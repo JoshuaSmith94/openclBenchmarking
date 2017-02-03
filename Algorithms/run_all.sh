@@ -4,7 +4,11 @@ now="`date +%Y-%m-%d:%H:%M:%S`"
 cat algorithms.txt | while read line; do 
 	echo Running $line
     cd $line 
-	bash run.sh
+    rm log.txt
+	for i in {0..5..1}
+    do
+       bash run.sh
+    done
 	cd ..	
 done
 

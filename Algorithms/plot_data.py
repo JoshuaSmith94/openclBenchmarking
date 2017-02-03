@@ -95,9 +95,9 @@ for algorithm in algorithmList:
     width = 0.35       # the width of the bars
 
     fig, ax = plt.subplots()
-    rects1 = ax.bar(ind, cpu_means, width, color='r', yerr=cpu_std)
+    cpurect = ax.bar(ind, cpu_means, width, color='b', yerr=cpu_std)
 
-    rects2 = ax.bar(ind + width, gpu_means, width, color='y', yerr=gpu_std)
+    gpurect = ax.bar(ind + width, gpu_means, width, color='g', yerr=gpu_std)
 
     # add some text for labels, title and axes ticks
     ax.set_ylabel('Time to complete (ms)')
@@ -105,14 +105,26 @@ for algorithm in algorithmList:
     ax.set_xticks(ind + width / 2)
     ax.set_xticklabels(('640x480', '1280x720', '1920x1080', '3480x2160'))
 
-    ax.legend((rects1[0], rects2[0]), ('Cpu', 'Gpu'))
+    ax.legend((cpurect[0], gpurect[0]), ('Cpu', 'Gpu'))
 
-    autolabel(rects1)
-    autolabel(rects2)
+    autolabel(cpurect)
+    autolabel(gpurect)
 
-    plt.savefig(('reports/graphs/'+algorithm+'.png'))      
+    plt.savefig(('reports/graphs/'+algorithm+'.png')) 
+
+print("Creating Report\n")
+
+report = open("reports/report1.md","w")
+
+report.write('#Report on the performance of algorithms\n')  
+report.write('##Test conditions\n')   
+report.write('##Algorithm results\n')
+for algorithm in algorithmList:
+    report.write(('##'+algorithm+'\n'))
+    report.write('![alt text](https://github.com/JoshuaSmith94/openclBenchmarking/raw/master/Algorithms/reports/graphs/'+algorithm+'.png"'+algorithm+'")\n')
+
             
-
+report.close
 
 
 

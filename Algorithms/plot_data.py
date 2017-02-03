@@ -121,7 +121,7 @@ report.write('##Test conditions\n')
 report.write('##Algorithm results\n')
 for algorithm in algorithmList:
     report.write(('##'+algorithm+'\n'))
-    report.write('![alt text](https://github.com/JoshuaSmith94/openclBenchmarking/raw/master/Algorithms/reports/graphs/'+algorithm+'.png"'+algorithm+'")\n')
+    report.write('![alt text](https://github.com/JoshuaSmith94/openclBenchmarking/raw/master/Algorithms/reports/graphs/'+algorithm+'.png "'+algorithm+'")\n')
 
             
 report.close

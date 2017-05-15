@@ -1,0 +1,15 @@
+hconcat
+insertChannel
+integral
+matchTemplate
+
+meanShiftFiltering
+meanShiftProc
+meanShiftSegmentation
+meanStdDev
+
+
+perspectiveTransform
+
+
+vconcat

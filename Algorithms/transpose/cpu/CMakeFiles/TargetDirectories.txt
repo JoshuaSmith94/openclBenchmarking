@@ -1,0 +1,3 @@
+/home/joshua/Projects/openclBenchmarking/Algorithms/transpose/cpu/CMakeFiles/edit_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/transpose/cpu/CMakeFiles/rebuild_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/transpose/cpu/CMakeFiles/transpose.dir

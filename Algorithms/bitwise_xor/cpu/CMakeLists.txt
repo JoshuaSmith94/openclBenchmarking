@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( bitwise_xor )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package( OpenCV REQUIRED )
+add_executable( bitwise_xor bitwise_xor.cpp )
+target_link_libraries( bitwise_xor ${OpenCV_LIBS} )

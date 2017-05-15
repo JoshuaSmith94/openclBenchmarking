@@ -64,7 +64,7 @@ int main(int argc, char** argv )
 	logfile << "width:" << input.cols << ","
             << "height:" << input.rows << ","
             << "dataType:" << input.type() << ","
-            << "time:"	<< std::chrono::duration_cast<std::chrono::milliseconds>(t2-t1).count() << "\n";
+            << "time:"	<< std::chrono::duration_cast<std::chrono::microseconds>(t2-t1).count() << "\n";
 	logfile.close();
     return 0;
 }

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( sepFilter2D )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package( OpenCV REQUIRED )
+add_executable( sepFilter2D sepFilter2D.cpp )
+target_link_libraries( sepFilter2D ${OpenCV_LIBS} )

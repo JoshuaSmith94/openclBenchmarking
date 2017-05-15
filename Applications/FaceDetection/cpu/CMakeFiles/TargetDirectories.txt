@@ -1,0 +1,3 @@
+/home/joshua/Projects/openclBenchmarking/Applications/FaceDetection/cpu/CMakeFiles/edit_cache.dir
+/home/joshua/Projects/openclBenchmarking/Applications/FaceDetection/cpu/CMakeFiles/rebuild_cache.dir
+/home/joshua/Projects/openclBenchmarking/Applications/FaceDetection/cpu/CMakeFiles/FaceDetection.dir

@@ -1,0 +1,48 @@
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:115242
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:19168
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:5912
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:1630
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:122279
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:18578
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:6238
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:2187
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:117626
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:17365
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:5300
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:1483
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:122418
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:19338
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:6424
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:2018
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:117331
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:17468
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:5084
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:1665
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:121863
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:20589
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:6431
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:2014
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:118796
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:17364
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:6030
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:1587
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:121200
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:20115
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:7063
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:2120
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:114251
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:17675
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:5004
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:1643
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:121915
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:18875
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:5645
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:2033
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:115598
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:17651
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:4602
+algorithm:randShuffle,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:1461
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:123796
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:18527
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:6173
+algorithm:randShuffle,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1998

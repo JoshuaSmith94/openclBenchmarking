@@ -1,0 +1,3 @@
+/home/joshua/Projects/openclBenchmarking/Algorithms/bitwise_or/cpu/CMakeFiles/edit_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/bitwise_or/cpu/CMakeFiles/rebuild_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/bitwise_or/cpu/CMakeFiles/bitwise_or.dir

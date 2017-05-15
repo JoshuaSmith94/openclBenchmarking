@@ -40,7 +40,7 @@ def autolabel(rects):
     """
     for rect in rects:
         height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width()/2., 1.05*height,
+        ax.text(rect.get_x() + rect.get_width()/2., 1.005*height,
                 '%d' % int(height),
                 ha='center', va='bottom')
 
@@ -52,7 +52,13 @@ for line in f:
     algorithmList.append(line)
 
 algorithmLog = parseLogs(algorithmList)
+
+print("Creating Report\n")
+
+
 print("Creating Graphs\n")
+doc = open("reports/report1.csv","w")
+rat = open("reports/report2.csv","w")
 for algorithm in algorithmList:
 
     Cpu3840List = []
@@ -93,6 +99,9 @@ for algorithm in algorithmList:
      
     ind = np.arange(N)  # the x locations for the groups
     width = 0.35       # the width of the bars
+    ratio=[]
+    for x in range(0, 4): 
+        ratio.append(cpu_means[x]/gpu_means[x])
 
     fig, ax = plt.subplots()
     cpurect = ax.bar(ind, cpu_means, width, color='b', yerr=cpu_std)
@@ -100,24 +109,38 @@ for algorithm in algorithmList:
     gpurect = ax.bar(ind + width, gpu_means, width, color='g', yerr=gpu_std)
 
     # add some text for labels, title and axes ticks
-    ax.set_ylabel('Time to complete (ms)')
-    ax.set_title(('Time to complete '+algorithm+' by resolution and proccessor type'))
+    ax.set_ylabel('Time to complete (microseconds)')
+    ax.set_xlabel('Resolution')
+    ax.set_title(('Time to complete '+algorithm+' by resolution and system type'))
     ax.set_xticks(ind + width / 2)
     ax.set_xticklabels(('640x480', '1280x720', '1920x1080', '3480x2160'))
+    if Cpu3840List[3]>Gpu3840List[3]:
+        ax.set_ylim([0, Cpu3840List[3]+(Cpu3840List[3]*0.1)+10000])
+    else:
+        ax.set_ylim([0, Gpu3840List[3]+(Gpu3840List[3]*0.1)+10000])
 
-    ax.legend((cpurect[0], gpurect[0]), ('Cpu', 'Gpu'))
+    ax.legend((cpurect[0], gpurect[0]), ('Cpu', 'Gpu'), bbox_to_anchor=(0.25, 0.95))
 
     autolabel(cpurect)
     autolabel(gpurect)
 
     plt.savefig(('reports/graphs/'+algorithm+'.png')) 
+    plt.close()
 
-print("Creating Report\n")
+    doc.write(algorithm+',{:.2f}'.format(ratio[0])+',{:.2f}'.format(ratio[1])+',{:.2f}'.format(ratio[2])+',{:.2f}'.format(ratio[3])+'\n')
 
+    rat.write(algorithm+',{:.0f}'.format(cpu_means[0])+',{:.0f}'.format(gpu_means[0])+',{:.0f}'.format(cpu_means[1])+',{:.0f}'.format(gpu_means[1])+',{:.0f}'.format(cpu_means[2])+',{:.0f}'.format(gpu_means[2])+',{:.0f}'.format(cpu_means[3])+',{:.0f}'.format(gpu_means[3])+'\n')
+
+doc.close()
+rat.close()
 report = open("reports/report1.md","w")
 
 report.write('#Report on the performance of algorithms\n')  
-report.write('##Test conditions\n')   
+report.write('##Test conditions\n')
+report.write('###Software versions\n')
+report.write('OCV_Ver:3.1.0')
+report.write('device:GeForce GTX 980')
+report.write('OCL_Ver:OpenCL C 1.2\n')
 report.write('##Algorithm results\n')
 for algorithm in algorithmList:
     report.write(('##'+algorithm+'\n'))

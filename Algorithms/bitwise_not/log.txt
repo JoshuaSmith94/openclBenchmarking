@@ -1,0 +1,48 @@
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:59532
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:57264
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:56790
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:56204
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:1142
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:1090
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:1063
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1067
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:60120
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:57007
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:56517
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:56581
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:1094
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:1066
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:1067
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1052
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:60107
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:57301
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:56442
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:56104
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:1142
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:1095
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:1056
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1045
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:60202
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:57246
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:56322
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:56379
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:1102
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:1082
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:1064
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1097
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:59670
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:57090
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:56298
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:56143
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:1123
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:1124
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:1060
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1044
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:3840,height:2160,dataType:16,time:60531
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1920,height:1080,dataType:16,time:57326
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:1280,height:720,dataType:16,time:56488
+algorithm:bitwise_not,type:cpu,OCVVersion:3.1.0,width:640,height:480,dataType:16,time:56551
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:3840,height:2160,dataType:16,time:1102
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1920,height:1080,dataType:16,time:1077
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:1280,height:720,dataType:16,time:1063
+algorithm:bitwise_not,type:gpu,OCV_Ver:3.1.0,device:GeForce GTX 980,OCL_Ver:OpenCL C 1.2 ,width:640,height:480,dataType:16,time:1055

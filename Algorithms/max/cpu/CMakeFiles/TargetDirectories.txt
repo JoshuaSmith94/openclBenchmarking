@@ -1,0 +1,3 @@
+/home/joshua/Projects/openclBenchmarking/Algorithms/max/cpu/CMakeFiles/edit_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/max/cpu/CMakeFiles/rebuild_cache.dir
+/home/joshua/Projects/openclBenchmarking/Algorithms/max/cpu/CMakeFiles/max.dir

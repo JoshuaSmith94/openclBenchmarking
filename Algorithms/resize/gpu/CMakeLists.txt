@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( resize )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+find_package( OpenCV REQUIRED )
+add_executable( resize resize.cpp )
+target_link_libraries( resize ${OpenCV_LIBS} )
